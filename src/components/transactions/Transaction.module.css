@@ -1,0 +1,25 @@
+.transactionHistory {
+    background-color: rgb(236, 241, 243);
+    width: 100%;
+}
+
+.head {
+    background-color: rgb(116, 103, 233);
+    color: #fff;
+    height: 40px;
+}
+
+.body {
+    background-color: #fff;
+    height: 40px;
+}
+
+.body:nth-child(2n) {
+    background-color: rgb(236, 241, 243);
+}
+
+.body:nth-child(2n):hover,
+.body:hover {
+    background-color: rgb(158, 237, 247);
+    cursor: pointer;
+}
